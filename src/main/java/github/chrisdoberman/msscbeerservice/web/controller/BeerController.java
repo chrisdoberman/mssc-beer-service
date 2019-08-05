@@ -28,6 +28,6 @@ public class BeerController {
     public ResponseEntity updateBeerById(@PathVariable("beerId") UUID beerId, @RequestBody BeerDto beerDto) {
 
         //todo impl
-        return new ResponseEntity(HttpStatus.ACCEPTED);
+        return new ResponseEntity(HttpStatus.NO_CONTENT);
     }
 }
