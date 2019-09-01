@@ -11,7 +11,4 @@ Spring Boot Microservice Example
 | [Brewery Beer Inventory Service](https://github.com/chrisdoberman/mssc-beer-inventory-service/tree/my-working-branch) | 8082 |
 
 # ActiveMQ docker container command:
-docker run -it --rm \
-  -p 8161:8161 \
-  -p 61616:61616 \
-  vromero/activemq-artemis
+docker run -it --rm -p 8161:8161 -p 61616:61616 vromero/activemq-artemis
