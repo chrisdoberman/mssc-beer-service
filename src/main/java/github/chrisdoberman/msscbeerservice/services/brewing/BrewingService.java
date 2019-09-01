@@ -1,4 +1,4 @@
-package github.chrisdoberman.msscbeerservice.services;
+package github.chrisdoberman.msscbeerservice.services.brewing;
 
 import github.chrisdoberman.msscbeerservice.config.JmsConfig;
 import github.chrisdoberman.msscbeerservice.domain.Beer;
