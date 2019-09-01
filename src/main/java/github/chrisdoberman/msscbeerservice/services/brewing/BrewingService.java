@@ -2,7 +2,7 @@ package github.chrisdoberman.msscbeerservice.services.brewing;
 
 import github.chrisdoberman.msscbeerservice.config.JmsConfig;
 import github.chrisdoberman.msscbeerservice.domain.Beer;
-import github.chrisdoberman.msscbeerservice.events.BeerEvent;
+import github.chrisdoberman.msscbeerservice.events.BrewBeerEvent;
 import github.chrisdoberman.msscbeerservice.repositories.BeerRepository;
 import github.chrisdoberman.msscbeerservice.services.inventory.BeerInventoryService;
 import github.chrisdoberman.msscbeerservice.web.mappers.BeerMapper;
@@ -36,7 +36,8 @@ public class BrewingService {
 
             // i think this is a bug, should be <=
             if (beer.getMinOnHand() >= invQOH) {
-                jmsTemplate.convertAndSend(JmsConfig.BREWING_REQUEST_QUEUE, new BeerEvent(beerMapper.beerToBeerDto(beer)));
+                jmsTemplate.convertAndSend(JmsConfig.BREWING_REQUEST_QUEUE,
+                        new BrewBeerEvent(beerMapper.beerToBeerDto(beer)));
             }
         });
     }
