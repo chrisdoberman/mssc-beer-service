@@ -34,7 +34,6 @@ public class BrewingService {
             log.debug("Min on hand: {}", beer.getMinOnHand());
             log.debug("Inventory is: {}", invQOH);
 
-            // i think this is a bug, should be <=
             if (beer.getMinOnHand() >= invQOH) {
                 jmsTemplate.convertAndSend(JmsConfig.BREWING_REQUEST_QUEUE,
                         new BrewBeerEvent(beerMapper.beerToBeerDto(beer)));
