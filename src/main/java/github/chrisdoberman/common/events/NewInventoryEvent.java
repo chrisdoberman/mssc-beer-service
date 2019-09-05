@@ -1,12 +1,12 @@
-package github.chrisdoberman.msscbeerservice.events;
+package github.chrisdoberman.common.events;
 
 import github.chrisdoberman.msscbeerservice.web.model.BeerDto;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
-public class BrewBeerEvent extends BeerEvent {
+public class NewInventoryEvent extends BeerEvent {
 
-    public BrewBeerEvent(BeerDto beerDto) {
+    public NewInventoryEvent(BeerDto beerDto) {
         super(beerDto);
     }
 }
