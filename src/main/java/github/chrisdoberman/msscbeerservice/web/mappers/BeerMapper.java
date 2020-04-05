@@ -1,7 +1,7 @@
 package github.chrisdoberman.msscbeerservice.web.mappers;
 
+import github.chrisdoberman.brewery.model.BeerDto;
 import github.chrisdoberman.msscbeerservice.domain.Beer;
-import github.chrisdoberman.msscbeerservice.web.model.BeerDto;
 import org.mapstruct.DecoratedWith;
 import org.mapstruct.Mapper;
 

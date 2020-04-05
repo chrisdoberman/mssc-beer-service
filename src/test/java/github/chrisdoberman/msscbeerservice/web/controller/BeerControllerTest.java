@@ -1,10 +1,10 @@
 package github.chrisdoberman.msscbeerservice.web.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import github.chrisdoberman.brewery.model.BeerDto;
+import github.chrisdoberman.brewery.model.BeerStyleEnum;
 import github.chrisdoberman.msscbeerservice.bootstrap.BeerLoader;
 import github.chrisdoberman.msscbeerservice.services.BeerService;
-import github.chrisdoberman.msscbeerservice.web.model.BeerDto;
-import github.chrisdoberman.msscbeerservice.web.model.BeerStyleEnum;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;

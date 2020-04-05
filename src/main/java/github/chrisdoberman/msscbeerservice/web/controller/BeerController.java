@@ -1,9 +1,9 @@
 package github.chrisdoberman.msscbeerservice.web.controller;
 
+import github.chrisdoberman.brewery.model.BeerDto;
+import github.chrisdoberman.brewery.model.BeerPagedList;
+import github.chrisdoberman.brewery.model.BeerStyleEnum;
 import github.chrisdoberman.msscbeerservice.services.BeerService;
-import github.chrisdoberman.msscbeerservice.web.model.BeerDto;
-import github.chrisdoberman.msscbeerservice.web.model.BeerPagedList;
-import github.chrisdoberman.msscbeerservice.web.model.BeerStyleEnum;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;

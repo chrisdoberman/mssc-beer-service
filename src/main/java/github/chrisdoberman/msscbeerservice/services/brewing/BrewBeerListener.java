@@ -1,11 +1,11 @@
 package github.chrisdoberman.msscbeerservice.services.brewing;
 
-import github.chrisdoberman.common.events.BrewBeerEvent;
-import github.chrisdoberman.common.events.NewInventoryEvent;
+import github.chrisdoberman.brewery.model.BeerDto;
+import github.chrisdoberman.brewery.model.events.BrewBeerEvent;
+import github.chrisdoberman.brewery.model.events.NewInventoryEvent;
 import github.chrisdoberman.msscbeerservice.config.JmsConfig;
 import github.chrisdoberman.msscbeerservice.domain.Beer;
 import github.chrisdoberman.msscbeerservice.repositories.BeerRepository;
-import github.chrisdoberman.msscbeerservice.web.model.BeerDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jms.annotation.JmsListener;

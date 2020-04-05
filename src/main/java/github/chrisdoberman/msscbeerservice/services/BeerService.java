@@ -1,8 +1,8 @@
 package github.chrisdoberman.msscbeerservice.services;
 
-import github.chrisdoberman.msscbeerservice.web.model.BeerDto;
-import github.chrisdoberman.msscbeerservice.web.model.BeerPagedList;
-import github.chrisdoberman.msscbeerservice.web.model.BeerStyleEnum;
+import github.chrisdoberman.brewery.model.BeerDto;
+import github.chrisdoberman.brewery.model.BeerPagedList;
+import github.chrisdoberman.brewery.model.BeerStyleEnum;
 import org.springframework.data.domain.PageRequest;
 
 import java.util.UUID;

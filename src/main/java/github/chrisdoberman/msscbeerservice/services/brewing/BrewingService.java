@@ -1,6 +1,6 @@
 package github.chrisdoberman.msscbeerservice.services.brewing;
 
-import github.chrisdoberman.common.events.BrewBeerEvent;
+import github.chrisdoberman.brewery.model.events.BrewBeerEvent;
 import github.chrisdoberman.msscbeerservice.config.JmsConfig;
 import github.chrisdoberman.msscbeerservice.domain.Beer;
 import github.chrisdoberman.msscbeerservice.repositories.BeerRepository;

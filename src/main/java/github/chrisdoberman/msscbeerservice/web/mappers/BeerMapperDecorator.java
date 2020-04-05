@@ -1,8 +1,8 @@
 package github.chrisdoberman.msscbeerservice.web.mappers;
 
+import github.chrisdoberman.brewery.model.BeerDto;
 import github.chrisdoberman.msscbeerservice.domain.Beer;
 import github.chrisdoberman.msscbeerservice.services.inventory.BeerInventoryService;
-import github.chrisdoberman.msscbeerservice.web.model.BeerDto;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public abstract class BeerMapperDecorator implements BeerMapper {

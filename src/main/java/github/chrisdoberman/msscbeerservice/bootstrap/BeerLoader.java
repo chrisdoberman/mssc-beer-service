@@ -1,8 +1,8 @@
 package github.chrisdoberman.msscbeerservice.bootstrap;
 
+import github.chrisdoberman.brewery.model.BeerStyleEnum;
 import github.chrisdoberman.msscbeerservice.domain.Beer;
 import github.chrisdoberman.msscbeerservice.repositories.BeerRepository;
-import github.chrisdoberman.msscbeerservice.web.model.BeerStyleEnum;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;

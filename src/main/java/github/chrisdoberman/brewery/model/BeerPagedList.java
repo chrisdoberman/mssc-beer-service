@@ -1,4 +1,4 @@
-package github.chrisdoberman.msscbeerservice.web.model;
+package github.chrisdoberman.brewery.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

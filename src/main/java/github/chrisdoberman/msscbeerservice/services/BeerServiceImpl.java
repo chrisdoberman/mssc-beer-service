@@ -1,12 +1,12 @@
 package github.chrisdoberman.msscbeerservice.services;
 
+import github.chrisdoberman.brewery.model.BeerDto;
+import github.chrisdoberman.brewery.model.BeerPagedList;
+import github.chrisdoberman.brewery.model.BeerStyleEnum;
 import github.chrisdoberman.msscbeerservice.domain.Beer;
 import github.chrisdoberman.msscbeerservice.repositories.BeerRepository;
 import github.chrisdoberman.msscbeerservice.web.controller.NotFoundException;
 import github.chrisdoberman.msscbeerservice.web.mappers.BeerMapper;
-import github.chrisdoberman.msscbeerservice.web.model.BeerDto;
-import github.chrisdoberman.msscbeerservice.web.model.BeerPagedList;
-import github.chrisdoberman.msscbeerservice.web.model.BeerStyleEnum;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cache.annotation.Cacheable;

@@ -1,6 +1,6 @@
-package github.chrisdoberman.common.events;
+package github.chrisdoberman.brewery.model.events;
 
-import github.chrisdoberman.msscbeerservice.web.model.BeerDto;
+import github.chrisdoberman.brewery.model.BeerDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
